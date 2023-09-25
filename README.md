@@ -24,7 +24,7 @@ Open the directory for sddm.
 cd sddm
 ```
 
-### Generate your synthetic dataset
+### 2) Generate your synthetic dataset
 
 The synthetic data can be divided into 7 categories: 2spirals, 8gaussians, checkerboard, circles, moons, pinwheel, swissroll. You can set 'data_name' for selection.
 
@@ -45,7 +45,7 @@ data_name=XXX bash sddm/synthetic/data/run_base10_data_dump.sh
 
 You can also directly download our **[synthetic dataset](https://drive.google.com/drive/folders/1Y-1D6ICI7hMQjjivl_dsFkktC2jz1phn?usp=drive_link)** into ./sddm/data
 
-### Train on the synthetic dataset
+### 3) Train on the synthetic dataset
 
 **Binary graycode**
 ``` bash
@@ -62,7 +62,7 @@ data_name=XXX config_name=base10_code bash ./sddm/synthetic/train_base10_code.sh
 
 You can also directly download our **[pre-trained model](https://drive.google.com/drive/folders/1Yp3Lh1HQVQvTxPlQQe4Dw5WYPkicbdwg?usp=drive_link)** into ./sddm/results
 
-### Test MMD
+### 4) Test MMD
 Please switch 'sampler_type' in 'sddm/synthetic/config/*.py' to choose lbjf or dpf sampling.
 
 **Binary graycode**
@@ -80,7 +80,7 @@ data_name=XXX config_name=base5_code bash sddm/synthetic/base5_test_mmd.sh
 data_name=XXX config_name=base10_code bash sddm/synthetic/base10_test_mmd.sh
 ```
 
-### Test CSV
+### 5) Test CSV
 Please switch 'sampler_type' in 'sddm/synthetic/config/*.py' to choose lbjf or dpf sampling.
 
 **Binary graycode**
