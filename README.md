@@ -80,7 +80,7 @@ data_name=XXX config_name=base5_code bash sddm/synthetic/base5_test_mmd.sh
 data_name=XXX config_name=base10_code bash sddm/synthetic/base10_test_mmd.sh
 ```
 
-### 5) Test CSV
+### 5) Test CSD
 Please switch 'sampler_type' in 'sddm/synthetic/config/*.py' to choose lbjf or dpf sampling.
 
 **Binary graycode**
