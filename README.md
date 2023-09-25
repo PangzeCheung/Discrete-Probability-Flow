@@ -42,7 +42,7 @@ data_name=XXX bash sddm/synthetic/data/run_base5_data_dump.sh
 ``` bash
 data_name=XXX bash sddm/synthetic/data/run_base10_data_dump.sh
 ```
-
+You can also directly download our **[synthetic dataset](https://drive.google.com/drive/folders/1Y-1D6ICI7hMQjjivl_dsFkktC2jz1phn?usp=drive_link)** into ./sddm/data
 
 ### 3) Train on the synthetic dataset
 
