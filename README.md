@@ -1,6 +1,6 @@
 # Discrete-Probability-Flow
 
-The source code for our paper "Formulating Discrete Probability Flow Through Optimal Transport", Pengze Zhang*, Hubery Yin*, Chen Li, Xiaohua Xie, NeurIPS 2023.
+The source code for our paper "**[Formulating Discrete Probability Flow Through Optimal Transport](https://openreview.net/forum?id=I9GNrInbdf)**", Pengze Zhang*, Hubery Yin*, Chen Li, Xiaohua Xie, NeurIPS 2023.
 
 <img width="1059" alt="DPF" src="https://github.com/PangzeCheung/Discrete-Probability-Flow/assets/37894893/7acf5a4b-98b1-4c0d-8ca9-6d6f73af8a65">
 
