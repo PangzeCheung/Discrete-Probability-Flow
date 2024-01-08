@@ -9,6 +9,10 @@ The source code for our paper "**[Formulating Discrete Probability Flow Through 
 
 Continuous diffusion models are commonly acknowledged to display a deterministic probability flow, whereas discrete diffusion models do not. In this paper, we aim to establish the fundamental theory for the probability flow of discrete diffusion models. Specifically, we first prove that the continuous probability flow is the Monge optimal transport map under certain conditions, and also present an equivalent evidence for discrete cases. In view of these findings, we are then able to define the discrete probability flow in line with the principles of optimal transport. Finally, drawing upon our newly established definitions, we propose a novel sampling method that surpasses previous discrete diffusion models in its ability to generate more certain outcomes. Extensive experiments on the synthetic toy dataset and the CIFAR-10 dataset have validated the effectiveness of our proposed discrete probability flow. 
 
+## 🔥News🔥
+[2024.1.8] Our discrete probability flow can achieve the controllable generation of interpolation in the latent space.
+![face_fusion](https://github.com/PangzeCheung/Discrete-Probability-Flow/assets/37894893/bfe98059-835d-401b-b8ed-4c1f84047f74)
+
 ## Discrete Probability Flow on SDDM (Toy dataset)
 
 ### 1) Get start
@@ -152,6 +156,17 @@ Switch 'DPF_type' in 'TauLDR/config/eval/cifar10.py' to 0 / 1 to choose TauLDR /
 ``` bash
 python visualization.py
 ```
+
+## 🔥Application: interpolation in the latent space
+
+We trained TauLDR on the **[Celeb dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)**. You can directly download our **[pre-trained model](https://drive.google.com/file/d/1piz5Ky8Kf_mNjQp3Dfh97W9ukbvUdHxL/view?usp=drive_link)** into ./TauLDR/models/celeb_128.
+
+Switch 'DPF_type' in 'TauLDR/config/eval/celeb.py' to 0 / 1 to choose TauLDR / DPF sampling.
+
+``` bash
+python visualization_celeb.py
+```
+
 
 ## Citation
 
