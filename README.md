@@ -11,7 +11,10 @@ Continuous diffusion models are commonly acknowledged to display a deterministic
 
 ## 🔥News🔥
 [2024.1.8] Our discrete probability flow can achieve the controllable generation of interpolation in the latent space.
-![face_fusion](https://github.com/PangzeCheung/Discrete-Probability-Flow/assets/37894893/bfe98059-835d-401b-b8ed-4c1f84047f74)
+
+<div align=center>
+<img width="800" src="https://github.com/PangzeCheung/Discrete-Probability-Flow/assets/37894893/bfe98059-835d-401b-b8ed-4c1f84047f74">
+</div>
 
 ## Discrete Probability Flow on SDDM (Toy dataset)
 
@@ -157,7 +160,7 @@ Switch 'DPF_type' in 'TauLDR/config/eval/cifar10.py' to 0 / 1 to choose TauLDR /
 python visualization.py
 ```
 
-## 🔥Application: interpolation in the latent space
+## 🔥Application: interpolation in the latent space (Celeb)
 
 We trained TauLDR on the **[Celeb dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)**. You can directly download our **[pre-trained model](https://drive.google.com/file/d/1piz5Ky8Kf_mNjQp3Dfh97W9ukbvUdHxL/view?usp=drive_link)** into ./TauLDR/models/celeb_128.
 
